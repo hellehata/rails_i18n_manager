@@ -4,10 +4,10 @@
     options[:field_wrapper_html][:class].concat(" row").strip!
 
     options[:label_wrapper_html][:class] ||= ""
-    options[:label_wrapper_html][:class].concat(" col-md-1 col-form-label text-md-end").strip!
+    options[:label_wrapper_html][:class].concat(" col-1 col-form-label text-md-end").strip!
 
     options[:input_wrapper_html][:class] ||= ""
-    options[:input_wrapper_html][:class].concat(" col-auto g-md-0").strip!
+    options[:input_wrapper_html][:class].concat(" col g-md-0").strip!
   end
 
   if type == :text_area
